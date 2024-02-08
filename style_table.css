@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.schedule-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+}
+
+.logo {
+    width: 100px; /* Adjust as necessary for your logo */
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* To ensure equal column widths */
+    margin-bottom: 20px;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.schedule th {
+    background-color: #d9534f;
+    color: white;
+}
+
+.schedule td {
+    background-color: #fff;
+    color: #333;
+}
+tr:nth-child(even) {
+background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+    }
