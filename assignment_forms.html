@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Form</title>
+</head>
+<body>
+
+<h2>Student Feedback Form</h2>
+
+<form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <!-- Challenge 1: Text input for user name -->
+    <label for="username">Name:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <!-- Additional input elements -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="course">Course:</label>
+    <select id="course" name="course">
+        <option value="science">Science</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="literature">Literature</option>
+        <!-- Add other courses as needed -->
+    </select><br><br>
+
+    <label for="satisfaction">Satisfaction:</label>
+    <input type="range" id="satisfaction" name="satisfaction" min="0" max="10"><br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Challenge 4: Submit button -->
+    <input type="submit" value="Submit Feedback">
+</form>
+
+</body>
+</html>
