@@ -1,0 +1,18 @@
+/* Challenge 1: Set text-align, text-transform, and line-height for #html */
+#html {
+    text-align: center; /* You can choose from left, right, center, or justify */
+    text-transform: uppercase; /* Other values could be lowercase, capitalize, none */
+    line-height: 1.5; /* This is typically unitless but can be set in em, px, etc. */
+}
+
+/* Challenge 2: Set text-alignment to justify and color to red for #css */
+#css {
+    text-align: justify;
+    color: red;
+}
+
+/* Challenge 3: Set the text color to green, and text-transform to capitalize for #js */
+#js {
+    color: green;
+    text-transform: capitalize;
+}
