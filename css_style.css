@@ -1,0 +1,16 @@
+/* Apply Poppins font-family to the body */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Challenge 2: Set font-variant, font-weight, font-style for #css */
+#css {
+    font-variant: small-caps;
+    font-weight: 600; /* Assuming you want a semi-bold weight; 400 is normal */
+    font-style: italic;
+}
+
+/* Challenge 3: Set font-size for all p tags */
+p {
+    font-size: 15px;
+}
