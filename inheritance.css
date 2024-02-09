@@ -1,0 +1,14 @@
+/* Challenge 1: Styles that are inherited by child elements */
+body {
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6; 
+}
+
+/* Challenge 2: Styles that are not inherited by child elements */
+body {
+    background-color: #2bc6e4; 
+    margin: 20px; 
+    border: 1px solid #de3cd9; 
+    padding: 20px; 
+}
