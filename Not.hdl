@@ -1,0 +1,10 @@
+// Not.hdl
+
+CHIP Not {
+    IN in;
+    OUT out;
+
+    PARTS:
+    // Implement the Not gate using a Nand gate with both inputs tied to the same input
+    Nand(a=in, b=in, out=out);
+}

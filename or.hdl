@@ -1,0 +1,10 @@
+CHIP Or {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    // Using De Morgan's Theorem: A + B = NOT(NOT A AND NOT B)
+    Not(in=a, out=nota);
+    Not(in=b, out=notb);
+    Nand(a=nota, b=notb, out=out);
+}
